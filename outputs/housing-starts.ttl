@@ -1,0 +1,179 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts>
+    a <http://purl.org/linked-data/cube#DataSet> .
+
+<http://opendatacommunities.org/id/impact-indicator/2010-Q1/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2010-Q1> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "27750"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q1 2010" ;
+    
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2010-Q2/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2010-Q2> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "30420"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q2 2010" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2010-Q1/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2010-Q3/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2010-Q3> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "27700"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q3 2010" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2010-Q2/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2010-Q4/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2010-Q4> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "24010"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q4 2010" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2010-Q3/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2011-Q1/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2011-Q1> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "28540"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q1 2011" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2010-Q4/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2011-Q2/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2011-Q2> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "28330"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q2 2011" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2011-Q1/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2011-Q3/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2011-Q3> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "26640"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q3 2011" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2011-Q2/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2011-Q4/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2011-Q4> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "27230"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q4 2011" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2011-Q3/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2012-Q1/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2012-Q1> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "23780"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q1 2012" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2011-Q4/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2012-Q2/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2012-Q2> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "21890"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q2 2012" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2012-Q1/housing-starts> ;
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    
+    .
+
+<http://opendatacommunities.org/id/impact-indicator/2012-Q3/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/2012-Q3> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "25760"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, Q3 2012" ;
+    
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/2012-Q2/housing-starts> ;
+    
+    
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/provisional> ;
+    
+    .
+

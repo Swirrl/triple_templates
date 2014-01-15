@@ -1,0 +1,15 @@
+<% if @spreadsheet.cell(row,col) && @spreadsheet.cell(row,col) != "" && @spreadsheet.cell(row,col) != "no data" && @spreadsheet.cell(row,col) != "no response" && @spreadsheet.cell(row,col) != "not known" && @spreadsheet.cell(row,col) != "n/k"%>
+<http://allotmentdata.org/data/waiting-list-survey/2013/<%=la_finder.find_la_slug(@spreadsheet.cell(row,1)) %>/<%=@spreadsheet.cell(3,col) %>>
+    <http://purl.org/linked-data/cube#dataSet> <http://allotmentdata.org/data/waiting-list-survey> ;    
+    <http://allotmentdata.org/def/ontology/questionResponse> <%=literal(row,col) %> ;
+    a <http://allotmentdata.org/def/ontology/SurveyResponse> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "<%=@spreadsheet.cell(4,col) %>, 2013, <%=@spreadsheet.cell(row,1) %>";
+    <http://allotmentdata.org/def/ontology/surveyQuestion> <http://allotmentdata.org/def/concept/waiting-list-survey/questions/<%=@spreadsheet.cell(3,col)%>>;
+    <http://www.w3.org/ns/prov#wasDerivedFrom> <<%=@spreadsheet.cell(row,11)%>>;
+    <http://allotmentdata.org/def/ontology/refPeriod> <http://reference.data.gov.uk/id/year/2013> ;
+    <http://allotmentdata.org/def/ontology/authority> <<%=la_finder.find_la_uri(@spreadsheet.cell(row,1)) %>> ;
+    <% if col == 8 %>
+      <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://qudt.org/vocab/unit#Hectare>;
+    <% end %>
+ .
+<% end %>

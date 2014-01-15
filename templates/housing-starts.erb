@@ -1,0 +1,17 @@
+<http://opendatacommunities.org/id/impact-indicator/<%=@spreadsheet.cell(row,1) %>/housing-starts>
+    <http://opendatacommunities.org/def/business-plan/indicator> <http://opendatacommunities.org/def/business-plan/concept/impact-indicator/housing-starts> ;
+    <http://purl.org/linked-data/cube#dataSet> <http://opendatacommunities.org/id/dataset/impact-indicator/housing-starts> ;    
+    <http://purl.org/linked-data/sdmx/2009/dimension#freq> <http://purl.org/linked-data/sdmx/2009/code#freq-Q> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refArea> <http://data.ordnancesurvey.co.uk/id/country/england> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/quarter/<%=@spreadsheet.cell(row,1) %>> ;
+    <http://purl.org/linked-data/sdmx/2009/measure#obsValue> "<%=@spreadsheet.cell(row,col).to_i %>"^^xsd:integer ;
+    a <http://opendatacommunities.org/def/business-plan/ImpactIndicatorReport> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Housing starts, <%=@spreadsheet.cell(row,1)[5,2] %> <%=@spreadsheet.cell(row,1)[0,4] %>" ;
+    <% if @spreadsheet.cell(row,4) %>
+      <http://opendatacommunities.org/def/business-plan/previousReport> <http://opendatacommunities.org/id/impact-indicator/<%=@spreadsheet.cell(row,4) %>/housing-starts> ;
+    <% end %>
+    <% if @spreadsheet.cell(row,3)=="R" %><http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/revised> ;
+    <% elsif @spreadsheet.cell(row,3)=="P"%>
+    <http://purl.org/linked-data/sdmx/2009/attribute#obsStatus> <http://opendatacommunities.org/def/business-plan/concept/indicator-status/provisional> ;
+    <% end %>
+    .

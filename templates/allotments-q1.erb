@@ -1,0 +1,7 @@
+<http://allotmentdata.org/data/waiting-lists/number-of-sites/2013/<%=la_finder.find_la_slug(@spreadsheet.cell(row,1)) %>>
+    <http://purl.org/linked-data/cube#dataSet> <http://allotmentdata.org/data/waiting-lists/number-of-sites> ;    
+    <http://allotmentdata.org/def/questionResponse> "<%=@spreadsheet.cell(row,col)%>" ;
+    a <http://allotmentdata.org/def/ontology/SurveyResponse> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Number of sites for which waiting lists are held, <%=@spreadsheet.cell(row,1) %>";
+    <http://allotmentdata.org/def/ontology/surveyQuestion> <http://allotmentdata.org/def/concept/waiting-lists/survey-questions/<%=@spreadsheet.cell(3,col)%>>;
+ .
